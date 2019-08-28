@@ -4,7 +4,7 @@ steps to carry out on Master class day 2 by Rob, Introduction to programming:
 
 1 follow the tutorial on https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up to setup your RPI
 2 open the webbrowser on your RPI and if it works cherish this moment (!)
-3 install Sublime [correction: not Sublime sorry for the confusion but eg Spyder or another text editor of your choice---one that supports programmers] on your RPI, currently the best text editor in the market, it is for free
+3 install Sublime [correction: not Sublime sorry for the confusion but eg Spyder or another text editor of your choice---one that supports programmers] on your RPI, currently the best text editor in the market, it is for free. Of course there are also already installed some text editors on your RPI that you can use without needing to install something first, you can then proceed with step 4 directly.
 4 follow the tutorial on https://projects.raspberrypi.org/en/projects/getting-started-with-git
 5 make a fork with the pythonExercises repository of Rob on github so that you own the repository yourself in the cloud
 6 open a terminal on your RPI
