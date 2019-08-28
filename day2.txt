@@ -4,7 +4,7 @@ steps to carry out on Master class day 2 by Rob, Introduction to programming:
 
 1 follow the tutorial on https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up to setup your RPI
 2 open the webbrowser on your RPI and if it works cherish this moment (!)
-3 install Sublime [correction: not Sublime sorry for the confusion but eg Spyder or another text editor of your choice---one that supports programmers] on your RPI, currently the best text editor in the market, it is for free. Of course there are also already installed some text editors on your RPI that you can use without needing to install something first, you can then proceed with step 4 directly.
+3 open the text editor Geany that is already installed on the RPI or use another text editor if you prefer
 4 follow the tutorial on https://projects.raspberrypi.org/en/projects/getting-started-with-git
 5 make a fork with the pythonExercises repository of Rob on github so that you own the repository yourself in the cloud
 6 open a terminal on your RPI
@@ -12,11 +12,12 @@ steps to carry out on Master class day 2 by Rob, Introduction to programming:
 8 make a new directory in the terminal by typing mkdir pythonExercises
 9 go to it with cd pythonExercises
 10 type in pwd
-11 use git to make a local copy of your repository that is in the cloud in the current directory on your RPI
-12 open the first exercise in the Sublime editor 
+11 use git to make a local copy in the current directory on your RPI of the repository that you have in the cloud
+12 open the first exercise in the text editor 
 13 do some programming in the python script and adapt the code to the latest version of python that is available
 14 run the python script and look at the outcome
-15 commit your solution to the exercise in the local repository on your RPI and then push it up to your own repository in github
+15 commit your solution to the first exercise in the local repository on your RPI and then push it up to your own repository in github in the cloud
 16 create a pull request to Rob so that Rob gets your solution
-17 repeat until you have made all exercises
+17 wait for feedback in github from Rob
+18 repeat until you have made all exercises
 
