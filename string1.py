@@ -24,7 +24,10 @@
 # So donuts(5) returns 'Number of donuts: 5'
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
-  # +++your code here+++
+  if count >9:
+    print 'Number of donuts: many'
+  else:
+    print 'Number of donuts: ', count
   return
 
 
@@ -34,7 +37,10 @@ def donuts(count):
 # so 'spring' yields 'spng'. However, if the string length
 # is less than 2, return instead the empty string.
 def both_ends(s):
-  # +++your code here+++
+  if len(s) >1:
+    print s[0:2]+s[-2: ]
+  else:
+    print ''
   return
 
 
@@ -48,8 +54,12 @@ def both_ends(s):
 # Hint: s.replace(stra, strb) returns a version of string s
 # where all instances of stra have been replaced by strb.
 def fix_start(s):
-  # +++your code here+++
+  first_letter = s[0]
+  other_letters = s[1: ]
+  fixed_letters = other_letters.replace (first_letter,'*')
+  print first_letter+fixed_letters
   return
+
 
 
 # D. MixUp
@@ -60,7 +70,9 @@ def fix_start(s):
 #   'dog', 'dinner' -> 'dig donner'
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
-  # +++your code here+++
+  new_a = b[0:2]+a[2: ]
+  new_b = a[0:2]+b[2: ]
+  print new_a,'',new_b
   return
 
 
@@ -71,7 +83,7 @@ def test(got, expected):
     prefix = ' OK '
   else:
     prefix = '  X '
-  print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
+  print ('%s got: %s expected: %s') % (prefix, repr(got), repr(expected))
 
 
 # Provided main() calls the above functions with interesting inputs,
